@@ -9,5 +9,5 @@ http://192.168.99.100:8083/index.cfm
 docker ps
 docker exec -it lucee bash
 
-## manage docker
+## manage docker containers
 http://cockpit-project.org/
