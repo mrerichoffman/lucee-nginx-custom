@@ -16,5 +16,15 @@ docker ps
 
 docker exec -it lucee bash
 
+# mysql
+https://github.com/tutumcloud/mysql
+
+
+docker run -d -v /var/lib/mysql:/var/lib/mysql tutum/mysql /bin/bash -c "/usr/bin/mysql_install_db"
+
+docker run -d -p 3306:3306 -v /path/in/host:/var/lib/mysql -e MYSQL_PASS="mypass" tutum/mysql
+
+
+
 ## manage docker containers
 http://cockpit-project.org/
