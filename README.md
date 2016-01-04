@@ -4,7 +4,7 @@ https://hub.docker.com/r/lucee/lucee4-nginx/
 
 docker-machine -D ssh default
 
-cd /c/Users/docker/lucee-nginx-custom
+cd /c/Users/mreri/docker/lucee-nginx-custom
 
 docker build -t mrerichoffman/lucee-nginx-custom .
 
